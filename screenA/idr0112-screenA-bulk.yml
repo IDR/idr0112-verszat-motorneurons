@@ -1,4 +1,12 @@
 ---
+continue: "true"
+transfer: "ln_s"
+exclude: "clientpath"
+skip:
+  - checksum
+parallel_upload: "10"
+columns:
+    - name
+    - path
 target: "Screen:name:idr0112-verszat-motorneurons/screenA"
-include: "../bulk.yml"
 path: "idr0112-screenA-plates.tsv"

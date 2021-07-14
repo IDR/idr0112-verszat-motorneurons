@@ -1,4 +1,0 @@
----
-target: "Screen:name:idr0112-verszat-motorneurons/screenD"
-include: "../bulk.yml"
-path: "idr0112-screenD-plates.tsv"
