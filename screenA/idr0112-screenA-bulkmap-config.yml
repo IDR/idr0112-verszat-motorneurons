@@ -1,0 +1,136 @@
+---
+name: idr0112-verszat-motorneurons/screenA
+version: 1
+
+defaults:
+  include: false
+  type: string
+  includeclient: true
+  visible: true
+  omitempty: true
+
+columns:
+
+  - name: Characteristics [Diagnosis]
+    clientname: Diagnosis
+    include: true
+
+  - name: Characteristics [Mutation]
+    clientname: Mutation
+    include: true
+
+  - name: Characteristics [Donor Sex]
+    clientname: Donor Sex
+    include: true
+
+  - name: Characteristics [Donor Age]
+    clientname: Donor Age
+    include: true
+
+  - name: Characteristics [Donor Age At Disease Onset]
+    clientname: Donor Age At Disease Onset
+    include: true
+
+  - name: Experimental Condition [Treatment Description]
+    clientname: Treatment Description
+    include: true
+
+  - name: Comment [Treatment Description Comments]
+    clientname: Treatment Description Comments
+    include: true
+
+  - name: Experimental Condition [Treatment Time]
+    clientname: Treatment Time
+    include: true
+
+  - name: Comment [Quality Control Comments]
+    clientname: Quality Control Comments
+    include: true
+
+  - name: Comment [Image File Comments]
+    clientname: Image File Comments
+    include: true
+
+  - name: Comment [Publication Screen Name]
+    clientname: Publication Screen Name
+    include: true
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+        - name: Characteristics [Cell Line]
+          clientname: Cell Line
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line/supplementary
+      columns:
+      - name: Characteristics [Cell Type]
+        clientname: Cell Type
+        include: yes
+      - name: Characteristics [Motor Neuron DIV]
+        clientname: Motor Neuron DIV
+        include: yes
+      - name: Characteristics [Cell Line Designation]
+        clientname: Cell Line Designation
+        include: yes
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound
+      columns:
+        - name: Compound Name
+          clientname: Compound Name
+          include: true
+        - name: Compound PubChem URL
+          clientname: Compound Name URL
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/compound/supplementary
+      columns:
+        - name: Compound PubChem CID
+          clientname: PubChem CID
+          include: true
+        - name: Compound PubChem URL
+          clientname: PubChem URL
+          include: true
+        - name: Compound Concentration
+          clientname: Concentration
+          include: true
+       - name: Compound SMILES
+          clientname: SMILES
+          include: true
+        - name: Compound InChIKey
+          clientname: InChIKey
+          include: true
+        - name: Comment [Compound Comments]
+          clientname: Compound Comments
+          include: true
+
+
+advanced:
+  well_to_images: true
+  ignore_missing_primary_key: true
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+        - Cell Line
+    - namespace: openmicroscopy.org/mapr/compound
+      keys:
+        - Compound Name
+        - Compound Name URL
