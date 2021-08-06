@@ -77,15 +77,15 @@ columns:
   - group:
       namespace: openmicroscopy.org/mapr/cell_line/supplementary
       columns:
-      - name: Characteristics [Cell Type]
-        clientname: Cell Type
-        include: yes
-      - name: Characteristics [Motor Neuron DIV]
-        clientname: Motor Neuron DIV
-        include: yes
-      - name: Characteristics [Cell Line Designation]
-        clientname: Cell Line Designation
-        include: yes
+        - name: Characteristics [Cell Type]
+          clientname: Cell Type
+          include: true
+        - name: Characteristics [Motor Neuron DIV]
+          clientname: Motor Neuron DIV
+          include: true
+        - name: Characteristics [Cell Line Designation]
+          clientname: Cell Line Designation
+          include: true
 
   - group:
       namespace: openmicroscopy.org/mapr/compound
@@ -109,7 +109,7 @@ columns:
         - name: Compound Concentration
           clientname: Concentration
           include: true
-       - name: Compound SMILES
+        - name: Compound SMILES
           clientname: SMILES
           include: true
         - name: Compound InChIKey
