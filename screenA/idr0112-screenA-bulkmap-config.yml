@@ -55,6 +55,10 @@ columns:
     clientname: Publication Screen Name
     include: true
 
+  - name: Channels
+    clientname: Channels
+    include: yes
+
 
   ######################################################################
   # mapr groups
