@@ -1,0 +1,115 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.                                                                                                                                                                            
+# STUDY DESCRIPTION SECTION                                                                                                                    
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details   
+                             
+Comment[IDR Study Accession]	idr0112                       
+Study Title	Image-based deep learning reveals the responses of human motor neurons to stress and VCP-related ALS
+Study Type	high content screen                            
+Study Type Term Source REF	EFO                            
+Study Type Term Accession	EFO_0007550                            
+Study Description	The aim of the study was to investigate relationships between ALS-related RNA-binding proteins and ALS, under different stress conditions.          
+Study Key Words	ALS	motor neurons	RNA-binding protein	osmotic stress	oxidative            
+Study Organism	Homo sapiens                                
+Study Organism Term Source REF	NCBITaxon                        
+Study Organism Term Accession	9606                    
+Study Screens Number	1                                
+Study External URL    
+Study BioImage Archive Accession
+Study Public Release Date	2021-08-31    
+
+                                        
+# Study Publication                                                                                    
+Study PubMed ID	                            
+Study Publication Title	Image-based deep learning reveals the responses of human motor neurons to stress and VCP-related ALS                    
+Study Author List	Colombine Verzat, Jasmine Harley, Rickie Patani, Raphaëlle Luisier
+Study PMC ID	                            
+Study DOI	    
+
+                                                                                                       
+# Study Contacts                                                                                    
+Study Person Last Name	Patani	Luisier                             
+Study Person First Name	Rickie	Raphaëlle                                
+Study Person Email	rickie.patani@ucl.ac.uk	raphaelle.luisier@idiap.ch                    
+Study Person Address	The Francis Crick Institute, 1 Midland Road, London, NW1 1A	Idiap Research Institute, Rue marconi 19, 1920 Martigny, Switzerland
+Study Person ORCID	0000-0002-3825-7675	0000-0002-5657-2943                    
+Study Person Roles	Principle Investigator	submitter    
+
+                                                                              
+# Study License and Data DOI                                                                                Study License	CC BY 4.0                                     
+Study License URL	https://creativecommons.org/licenses/by/4.0/                                    
+Study Copyright	Francis Crick Institute, Idiap Research Institute            
+Study Data Publisher	University of Dundee                            
+Study Data DOI	        
+
+                                                            
+Term Source Name    NCBITaxon    EFO    CMPO    Fbbi                    Term Source File    http://purl.obolibrary.org/obo/    http://www.ebi.ac.uk/efo/    http://www.ebi.ac.uk/cmpo/    http://purl.obolibrary.org/obo/   
+
+                                                                                                                 
+                                                
+# SCREEN SECTION                                    
+# Screen Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. # For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.    
+                                                                    
+Screen Number	1                                    
+Comment[IDR Screen Name]	idr0112-verszat-motorneurons/screenA   
+Screen Sample Type	cell              
+Screen Description	Motor neurons with different markers and different stress conditions.                    
+Screen Size	Plates: 30	5D Images:59468	Planes:268064	Average Image Dimension (XYZCT) :1080 x 1080 x 1 x 1 x 1	Total Tb:     0.626
+Screen Example Images    
+Screen Imaging Method	spinning disk confocal microscopy                
+Screen Imaging Method Term Source REF	Fbbi                    
+Screen Imaging Method Term Accession	FBbi_00000253                
+Screen Technology Type	compound screen                                
+Screen Technology Type Term Source REF	EFO                
+Screen Technology Type Term Accession	EFO_0007553                   
+Screen Type	primary screen                                        
+Screen Type Term Source REF	EFO                            
+Screen Type Term Accession	EFO_0007556                     
+Screen Comments    
+
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)                                                                            
+Library File Name	screenA_library.csv                
+Library File Format	csv                        
+Library Type	compound library     
+Library Type Term Source REF	EFO                        
+Library Type Term Accession	EFO_0007569                        
+Library Manufacturer	                         
+Library Version	                   
+Library Experimental Conditions	stimulus or stress design (osmotic stress, oxidative stress, heat stress).               
+Library Experimental Conditions Term Source REF	EFO                    
+Library Experimental Conditions Term Accession	EFO_0001762                
+Quality Control Description	Visual inspection of images.  
+                                                                                                  
+# Protocols                                                                    
+Protocol Name	growth protocol	treatment protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol                
+Protocol Type	growth protocol	treatment protocol	HCS image acquisition and feature extraction protocol	HCS data analysis protocol                
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO                
+Protocol Type Term Accession	EFO_0003789	EFO_0003969	EFO_0007572	EFO_0007573                            
+Protocol Description	Human induced pluripotent stem cells (HiPSCs) underwent differentiation into spinal cord motor neurons as described in Hall et al, 2017 (doi: 10.1016/j.celrep.2017.05.024).	For the stress treatments; to induce osmotic stress, sorbitol was added to the medium to add an additional osmolarity of 0.4M. To account for recovery, the sorbitol medium was replaced with fresh untreated medium for the set period of time. To induce oxidative stress, 0.5mM of sodium arsenite (Sigma) was added to the medium. To induce heat stress, cells were placed in an incubator at 42°C and 5% carbon dioxide for 1hr. For heat stress recovery, cells were returned to an incubator at 37°C and 5% carbon dioxide for the determined time. For immunocytochemistry, cells were fixed in 4% paraformaldehyde in PBS for 15 minutes at room temperature (RT). Cells were permeabilised and non-specific antibody binding was blocked using 0.3% Triton-X containing 5% bovine serum albumin (BSA) (Sigma) in PBS for 60 minutes. Primary antibodies used are β-III-tubulin (abcam; ab41489; chicken; 1:1000), TDP-43 (ProteinTech; 12892-1-AP; rabbit; 1:400), SFPQ (abcam; ab11825; mouse; 1:400), FUS (Santa Cruz; sc-47711; mouse; 1:200), hnRNPA1 (Cell Signaling; 8443S; rabbit; 1:500), hnRNPK (Santa Cruz; sc-28380; mouse; 1:500) hnRNPM (Santa Cruz; sc-134360, mouse, 1:500), PABP (abcam; ab21060; rabbit; 1:400), Cleaved-Caspase 3 (Cell Signaling; Asp175; rabbit; 1:300).	Primary antibodies were made up in 5% BSA and then applied overnight at 4°C. Cells were washed and secondary antibody was added using a species-specific Alexa Fluor-conjugated secondary antibody (Life Technologies) at 1:1000 dilution in 5% BSA for 90 minutes at RT in the dark. Cells were washed once in PBS containing DAPI, 4′,6-diamidino-2-phenylindole nuclear stain (1:1000) for 10 minutes. Following a second wash in PBS, cells were left in PBS in the dark. Images were acquired using the Perkin Elmer Opera Phenix™ High Content Screening System with a x63 or x40 water objective as confocal z-stacks with a z-step of 1μm.
+
+# Phenotypes                                                                                
+Phenotype Name                                    
+Phenotype Description                                
+Phenotype Score Type                                    
+Phenotype Term Source REF                                    
+Phenotype Term Name                                    
+Phenotype Term Accession      
+                                          
+# Raw Data Files                                                                                        Raw Image Data Format	TIFF                                
+Raw Image Organization	30x 96 well plate
+
+# Feature Level Data Files                                                                
+Feature Level Data File Name                                
+Feature Level Data File Description                                
+Feature Level Data File Format                                
+Feature Level Data Column Name                                
+Feature Level Data Column Description                  
+                  
+# Processed Data Files                                                                                     
+Processed Data File Name                                    
+Processed Data File Format	tab-delimited text                        
+Processed Data File Description                                
+Processed Data Column Name                                
+Processed Data Column Type                                
+Processed Data Column Annotation Level                        
+Processed Data Column Description                                
+Processed Data Column Link To Library File            
