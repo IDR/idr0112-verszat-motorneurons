@@ -21,7 +21,7 @@ Study Public Release Date	2021-08-31
 # Study Publication                                                                                    
 Study PubMed ID	                            
 Study Publication Title	Image-based deep learning reveals the responses of human motor neurons to stress and VCP-related ALS                    
-Study Author List	Colombine Verzat, Jasmine Harley, Rickie Patani, Raphaëlle Luisier
+Study Author List	Verzat C, Harley J, Patani R, Luisier R
 Study PMC ID	                            
 Study DOI	    
 
@@ -37,7 +37,7 @@ Study Person Roles	Principle Investigator	submitter
                                                                               
 # Study License and Data DOI                                                                                Study License	CC BY 4.0                                     
 Study License URL	https://creativecommons.org/licenses/by/4.0/                                    
-Study Copyright	Francis Crick Institute, Idiap Research Institute            
+Study Copyright	The Francis Crick Institute, Idiap Research Institute            
 Study Data Publisher	University of Dundee                            
 Study Data DOI	        
 
