@@ -50,7 +50,7 @@ Term Source Name    NCBITaxon    EFO    CMPO    Fbbi                    Term Sou
 # Screen Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. # For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.    
                                                                     
 Screen Number	1                                    
-Comment[IDR Screen Name]	idr0112-verszat-motorneurons/screenA   
+Comment[IDR Screen Name]	idr0112-verzat-motorneurons/screenA   
 Screen Sample Type	cell              
 Screen Description	Motor neurons with different markers and different stress conditions.                    
 Screen Size	Plates: 30	5D Images:59468	Planes:268064	Average Image Dimension (XYZCT) :1080 x 1080 x 1 x 1 x 1	Total Tb:     0.626

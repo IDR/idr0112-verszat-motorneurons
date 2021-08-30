@@ -8,5 +8,5 @@ parallel_upload: "10"
 columns:
     - name
     - path
-target: "Screen:name:idr0112-verszat-motorneurons/screenA"
+target: "Screen:name:idr0112-verzat-motorneurons/screenA"
 path: "idr0112-screenA-plates.tsv"
