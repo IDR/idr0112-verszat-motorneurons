@@ -19,11 +19,11 @@ Study Public Release Date	2021-09-01
 
                                         
 # Study Publication                                                                                    
-Study PubMed ID	                            
+Study PubMed ID	34595747                        
 Study Publication Title	Image-based deep learning reveals the responses of human motor neurons to stress and VCP-related ALS                    
 Study Author List	Verzat C, Harley J, Patani R, Luisier R
 Study PMC ID	                            
-Study DOI	    
+Study DOI	https://doi.org/10.1111/nan.12770	    
 
                                                                                                        
 # Study Contacts                                                                                    
